@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACD237C0387F3EF965DFAF17 /* Pods_SSScanDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490C90C38642137C9D1C7A7E /* Pods_SSScanDemo.framework */; };
+		FF50EDEE27EE092600450064 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF50EDED27EE092600450064 /* AppDelegate.m */; };
+		FF50EDF127EE092600450064 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF50EDF027EE092600450064 /* SceneDelegate.m */; };
+		FF50EDF427EE092600450064 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF50EDF327EE092600450064 /* ViewController.m */; };
+		FF50EDF727EE092600450064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF50EDF527EE092600450064 /* Main.storyboard */; };
+		FF50EDF927EE092700450064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF50EDF827EE092700450064 /* Assets.xcassets */; };
+		FF50EDFC27EE092700450064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF50EDFA27EE092700450064 /* LaunchScreen.storyboard */; };
+		FF50EDFF27EE092700450064 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF50EDFE27EE092700450064 /* main.m */; };
+		FF50EE0927EE092700450064 /* SSScanDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF50EE0827EE092700450064 /* SSScanDemoTests.m */; };
+		FF50EE1327EE092700450064 /* SSScanDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF50EE1227EE092700450064 /* SSScanDemoUITests.m */; };
+		FF50EE1527EE092700450064 /* SSScanDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF50EE1427EE092700450064 /* SSScanDemoUITestsLaunchTests.m */; };
+		FF50EE2427EE0B2A00450064 /* SSScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF50EE2327EE0B2A00450064 /* SSScanViewController.m */; };
+		FF50EE3427EE1E7100450064 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FF50EE2927EE1E7100450064 /* LICENSE */; };
+		FF50EE3527EE1E7100450064 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FF50EE2A27EE1E7100450064 /* README.md */; };
+		FF50EE3627EE1E7100450064 /* SGQRCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF50EE2D27EE1E7100450064 /* SGQRCode.bundle */; };
+		FF50EE3727EE1E7100450064 /* SGQRCodeObtainConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = FF50EE2E27EE1E7100450064 /* SGQRCodeObtainConfigure.m */; };
+		FF50EE3827EE1E7100450064 /* SGQRCodeObtain.m in Sources */ = {isa = PBXBuildFile; fileRef = FF50EE3227EE1E7100450064 /* SGQRCodeObtain.m */; };
+		FF50EE3927EE1E7100450064 /* SGQRCodeScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF50EE3327EE1E7100450064 /* SGQRCodeScanView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF50EE0527EE092700450064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF50EDE127EE092600450064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF50EDE827EE092600450064;
+			remoteInfo = SSScanDemo;
+		};
+		FF50EE0F27EE092700450064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF50EDE127EE092600450064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF50EDE827EE092600450064;
+			remoteInfo = SSScanDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		352A0DA511814A396E525704 /* Pods-SSScanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSScanDemo.release.xcconfig"; path = "Target Support Files/Pods-SSScanDemo/Pods-SSScanDemo.release.xcconfig"; sourceTree = "<group>"; };
+		490C90C38642137C9D1C7A7E /* Pods_SSScanDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSScanDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2B0EA1F529EADBC2537ABC /* Pods-SSScanDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSScanDemo.debug.xcconfig"; path = "Target Support Files/Pods-SSScanDemo/Pods-SSScanDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FF50EDE927EE092600450064 /* SSScanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSScanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF50EDEC27EE092600450064 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF50EDED27EE092600450064 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF50EDEF27EE092600450064 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FF50EDF027EE092600450064 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FF50EDF227EE092600450064 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF50EDF327EE092600450064 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF50EDF627EE092600450064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF50EDF827EE092700450064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF50EDFB27EE092700450064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF50EDFD27EE092700450064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF50EDFE27EE092700450064 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF50EE0427EE092700450064 /* SSScanDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSScanDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF50EE0827EE092700450064 /* SSScanDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSScanDemoTests.m; sourceTree = "<group>"; };
+		FF50EE0E27EE092700450064 /* SSScanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSScanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF50EE1227EE092700450064 /* SSScanDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSScanDemoUITests.m; sourceTree = "<group>"; };
+		FF50EE1427EE092700450064 /* SSScanDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSScanDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		FF50EE2227EE0B2A00450064 /* SSScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSScanViewController.h; sourceTree = "<group>"; };
+		FF50EE2327EE0B2A00450064 /* SSScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSScanViewController.m; sourceTree = "<group>"; };
+		FF50EE2927EE1E7100450064 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FF50EE2A27EE1E7100450064 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FF50EE2C27EE1E7100450064 /* SGQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCode.h; sourceTree = "<group>"; };
+		FF50EE2D27EE1E7100450064 /* SGQRCode.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SGQRCode.bundle; sourceTree = "<group>"; };
+		FF50EE2E27EE1E7100450064 /* SGQRCodeObtainConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeObtainConfigure.m; sourceTree = "<group>"; };
+		FF50EE2F27EE1E7100450064 /* SGQRCodeObtain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeObtain.h; sourceTree = "<group>"; };
+		FF50EE3027EE1E7100450064 /* SGQRCodeScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeScanView.h; sourceTree = "<group>"; };
+		FF50EE3127EE1E7100450064 /* SGQRCodeObtainConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeObtainConfigure.h; sourceTree = "<group>"; };
+		FF50EE3227EE1E7100450064 /* SGQRCodeObtain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeObtain.m; sourceTree = "<group>"; };
+		FF50EE3327EE1E7100450064 /* SGQRCodeScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeScanView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF50EDE627EE092600450064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD237C0387F3EF965DFAF17 /* Pods_SSScanDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF50EE0127EE092700450064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF50EE0B27EE092700450064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25EAACAB858AC25A7004341E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				490C90C38642137C9D1C7A7E /* Pods_SSScanDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9283EB9BE9369C3786302CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B0EA1F529EADBC2537ABC /* Pods-SSScanDemo.debug.xcconfig */,
+				352A0DA511814A396E525704 /* Pods-SSScanDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF50EDE027EE092600450064 = {
+			isa = PBXGroup;
+			children = (
+				FF50EDEB27EE092600450064 /* SSScanDemo */,
+				FF50EE0727EE092700450064 /* SSScanDemoTests */,
+				FF50EE1127EE092700450064 /* SSScanDemoUITests */,
+				FF50EDEA27EE092600450064 /* Products */,
+				F9283EB9BE9369C3786302CA /* Pods */,
+				25EAACAB858AC25A7004341E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF50EDEA27EE092600450064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF50EDE927EE092600450064 /* SSScanDemo.app */,
+				FF50EE0427EE092700450064 /* SSScanDemoTests.xctest */,
+				FF50EE0E27EE092700450064 /* SSScanDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF50EDEB27EE092600450064 /* SSScanDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FF50EE2827EE1E7100450064 /* SGQRCode */,
+				FF50EE2127EE0B0200450064 /* Scan */,
+				FF50EDEC27EE092600450064 /* AppDelegate.h */,
+				FF50EDED27EE092600450064 /* AppDelegate.m */,
+				FF50EDEF27EE092600450064 /* SceneDelegate.h */,
+				FF50EDF027EE092600450064 /* SceneDelegate.m */,
+				FF50EDF227EE092600450064 /* ViewController.h */,
+				FF50EDF327EE092600450064 /* ViewController.m */,
+				FF50EDF527EE092600450064 /* Main.storyboard */,
+				FF50EDF827EE092700450064 /* Assets.xcassets */,
+				FF50EDFA27EE092700450064 /* LaunchScreen.storyboard */,
+				FF50EDFD27EE092700450064 /* Info.plist */,
+				FF50EDFE27EE092700450064 /* main.m */,
+			);
+			path = SSScanDemo;
+			sourceTree = "<group>";
+		};
+		FF50EE0727EE092700450064 /* SSScanDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF50EE0827EE092700450064 /* SSScanDemoTests.m */,
+			);
+			path = SSScanDemoTests;
+			sourceTree = "<group>";
+		};
+		FF50EE1127EE092700450064 /* SSScanDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF50EE1227EE092700450064 /* SSScanDemoUITests.m */,
+				FF50EE1427EE092700450064 /* SSScanDemoUITestsLaunchTests.m */,
+			);
+			path = SSScanDemoUITests;
+			sourceTree = "<group>";
+		};
+		FF50EE2127EE0B0200450064 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				FF50EE2227EE0B2A00450064 /* SSScanViewController.h */,
+				FF50EE2327EE0B2A00450064 /* SSScanViewController.m */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		FF50EE2827EE1E7100450064 /* SGQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				FF50EE2927EE1E7100450064 /* LICENSE */,
+				FF50EE2A27EE1E7100450064 /* README.md */,
+				FF50EE2B27EE1E7100450064 /* SGQRCode */,
+			);
+			path = SGQRCode;
+			sourceTree = "<group>";
+		};
+		FF50EE2B27EE1E7100450064 /* SGQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				FF50EE2C27EE1E7100450064 /* SGQRCode.h */,
+				FF50EE2D27EE1E7100450064 /* SGQRCode.bundle */,
+				FF50EE2E27EE1E7100450064 /* SGQRCodeObtainConfigure.m */,
+				FF50EE2F27EE1E7100450064 /* SGQRCodeObtain.h */,
+				FF50EE3027EE1E7100450064 /* SGQRCodeScanView.h */,
+				FF50EE3127EE1E7100450064 /* SGQRCodeObtainConfigure.h */,
+				FF50EE3227EE1E7100450064 /* SGQRCodeObtain.m */,
+				FF50EE3327EE1E7100450064 /* SGQRCodeScanView.m */,
+			);
+			path = SGQRCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF50EDE827EE092600450064 /* SSScanDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF50EE1827EE092700450064 /* Build configuration list for PBXNativeTarget "SSScanDemo" */;
+			buildPhases = (
+				EF13E20DF6F2276F4F5694D5 /* [CP] Check Pods Manifest.lock */,
+				FF50EDE527EE092600450064 /* Sources */,
+				FF50EDE627EE092600450064 /* Frameworks */,
+				FF50EDE727EE092600450064 /* Resources */,
+				7516D851CA231A2861E54905 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSScanDemo;
+			productName = SSScanDemo;
+			productReference = FF50EDE927EE092600450064 /* SSScanDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF50EE0327EE092700450064 /* SSScanDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF50EE1B27EE092700450064 /* Build configuration list for PBXNativeTarget "SSScanDemoTests" */;
+			buildPhases = (
+				FF50EE0027EE092700450064 /* Sources */,
+				FF50EE0127EE092700450064 /* Frameworks */,
+				FF50EE0227EE092700450064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF50EE0627EE092700450064 /* PBXTargetDependency */,
+			);
+			name = SSScanDemoTests;
+			productName = SSScanDemoTests;
+			productReference = FF50EE0427EE092700450064 /* SSScanDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF50EE0D27EE092700450064 /* SSScanDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF50EE1E27EE092700450064 /* Build configuration list for PBXNativeTarget "SSScanDemoUITests" */;
+			buildPhases = (
+				FF50EE0A27EE092700450064 /* Sources */,
+				FF50EE0B27EE092700450064 /* Frameworks */,
+				FF50EE0C27EE092700450064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF50EE1027EE092700450064 /* PBXTargetDependency */,
+			);
+			name = SSScanDemoUITests;
+			productName = SSScanDemoUITests;
+			productReference = FF50EE0E27EE092700450064 /* SSScanDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF50EDE127EE092600450064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FF50EDE827EE092600450064 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FF50EE0327EE092700450064 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FF50EDE827EE092600450064;
+					};
+					FF50EE0D27EE092700450064 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FF50EDE827EE092600450064;
+					};
+				};
+			};
+			buildConfigurationList = FF50EDE427EE092600450064 /* Build configuration list for PBXProject "SSScanDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF50EDE027EE092600450064;
+			productRefGroup = FF50EDEA27EE092600450064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF50EDE827EE092600450064 /* SSScanDemo */,
+				FF50EE0327EE092700450064 /* SSScanDemoTests */,
+				FF50EE0D27EE092700450064 /* SSScanDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF50EDE727EE092600450064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF50EDFC27EE092700450064 /* LaunchScreen.storyboard in Resources */,
+				FF50EDF927EE092700450064 /* Assets.xcassets in Resources */,
+				FF50EE3527EE1E7100450064 /* README.md in Resources */,
+				FF50EE3627EE1E7100450064 /* SGQRCode.bundle in Resources */,
+				FF50EE3427EE1E7100450064 /* LICENSE in Resources */,
+				FF50EDF727EE092600450064 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF50EE0227EE092700450064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF50EE0C27EE092700450064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7516D851CA231A2861E54905 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSScanDemo/Pods-SSScanDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSScanDemo/Pods-SSScanDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSScanDemo/Pods-SSScanDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF13E20DF6F2276F4F5694D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSScanDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF50EDE527EE092600450064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF50EDF427EE092600450064 /* ViewController.m in Sources */,
+				FF50EE3727EE1E7100450064 /* SGQRCodeObtainConfigure.m in Sources */,
+				FF50EE2427EE0B2A00450064 /* SSScanViewController.m in Sources */,
+				FF50EDEE27EE092600450064 /* AppDelegate.m in Sources */,
+				FF50EDFF27EE092700450064 /* main.m in Sources */,
+				FF50EE3927EE1E7100450064 /* SGQRCodeScanView.m in Sources */,
+				FF50EDF127EE092600450064 /* SceneDelegate.m in Sources */,
+				FF50EE3827EE1E7100450064 /* SGQRCodeObtain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF50EE0027EE092700450064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF50EE0927EE092700450064 /* SSScanDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF50EE0A27EE092700450064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF50EE1527EE092700450064 /* SSScanDemoUITestsLaunchTests.m in Sources */,
+				FF50EE1327EE092700450064 /* SSScanDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF50EE0627EE092700450064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF50EDE827EE092600450064 /* SSScanDemo */;
+			targetProxy = FF50EE0527EE092700450064 /* PBXContainerItemProxy */;
+		};
+		FF50EE1027EE092700450064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF50EDE827EE092600450064 /* SSScanDemo */;
+			targetProxy = FF50EE0F27EE092700450064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF50EDF527EE092600450064 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF50EDF627EE092600450064 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF50EDFA27EE092700450064 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF50EDFB27EE092700450064 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF50EE1627EE092700450064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF50EE1727EE092700450064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF50EE1927EE092700450064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2B0EA1F529EADBC2537ABC /* Pods-SSScanDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L53E46QXHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SSScanDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ss.SSScanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF50EE1A27EE092700450064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352A0DA511814A396E525704 /* Pods-SSScanDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L53E46QXHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SSScanDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ss.SSScanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF50EE1C27EE092700450064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L53E46QXHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmsys.SSScanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSScanDemo.app/SSScanDemo";
+			};
+			name = Debug;
+		};
+		FF50EE1D27EE092700450064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L53E46QXHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmsys.SSScanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSScanDemo.app/SSScanDemo";
+			};
+			name = Release;
+		};
+		FF50EE1F27EE092700450064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L53E46QXHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmsys.SSScanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSScanDemo;
+			};
+			name = Debug;
+		};
+		FF50EE2027EE092700450064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L53E46QXHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmsys.SSScanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSScanDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF50EDE427EE092600450064 /* Build configuration list for PBXProject "SSScanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF50EE1627EE092700450064 /* Debug */,
+				FF50EE1727EE092700450064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF50EE1827EE092700450064 /* Build configuration list for PBXNativeTarget "SSScanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF50EE1927EE092700450064 /* Debug */,
+				FF50EE1A27EE092700450064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF50EE1B27EE092700450064 /* Build configuration list for PBXNativeTarget "SSScanDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF50EE1C27EE092700450064 /* Debug */,
+				FF50EE1D27EE092700450064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF50EE1E27EE092700450064 /* Build configuration list for PBXNativeTarget "SSScanDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF50EE1F27EE092700450064 /* Debug */,
+				FF50EE2027EE092700450064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF50EDE127EE092600450064 /* Project object */;
+}
